@@ -30,8 +30,8 @@ section.telefone {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 627px;
-    width: 311px;
+    height: 630px;
+    width: 315px;
     background-color: beige;
     background: url(../imagens/frame-iphone.png) no-repeat;
     
@@ -63,3 +63,18 @@ section.redes img:hover {
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.315); 
     transition: transform .3s, border 1s;
 }
+
+/* @media screen and (max-width: 768px) {
+    section.telefone {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        height: 630px;
+        width: 315px;
+        background-color: beige;
+        background: url(../imagens/frame-iphone.png) no-repeat;
+        
+    } 
+} */
