@@ -64,11 +64,11 @@ section.redes img:hover {
     transition: transform .3s, border 1s;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     section.telefone {
         position: absolute;
         top: 50%;
-        left: 50%;
+        left: 43%;
         transform: translate(-50%, -50%);
     
         height: 630px;
@@ -77,4 +77,23 @@ section.redes img:hover {
         background: url(../imagens/frame-iphone.png) no-repeat;
         
     } 
-} */
+
+    section.redes {
+        text-align: right;
+    }
+    
+    section.redes img {
+        width: 40px;
+        margin: 8px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
+        box-sizing: border-box;
+    }
+    
+    section.redes img:hover {
+        border: 3px solid rgba(255, 255, 255, 0.301);
+        transform: translate(-3px, 3px);
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.315); 
+        transition: transform .3s, border 1s;
+    }
+} 
